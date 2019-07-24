@@ -1,6 +1,6 @@
 # 最长回文串问题
 class Solution(object):
-    #中心扩散法  时间复杂度n2
+    #中心扩散法  时间复杂度n^2
     def longestPalindrome(self, s):
         size = len(s)
 
@@ -41,3 +41,5 @@ if __name__ == '__main__':
      ca = Solution()
      p,le=ca.longestPalindrome(['a','b','c','b','a','b','d','e'])
      print('最长回文串：%s,长度：%d' % (p,le))
+     # list = ["a","b","c","d"]
+     # print(list[0:2])
