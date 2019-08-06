@@ -1,4 +1,3 @@
-
 class Solution(object):
     #动态规划 时间复杂度N^2
     def longestPalindrome(self, s):
